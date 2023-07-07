@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<malloc.h>
+#include<.h>
 struct node
 {
  int value;
@@ -37,7 +37,6 @@ temp->next = NULL;
  temp = head;
  while(temp)
  {
- printf(" %d\n", temp->value);
  temp = temp->next;
  }
  printf("Reversing the linked list\n");
