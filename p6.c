@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+#include<stdlib.h>
 int i,front,rear,ch,s[3],item;
 void insert(),delet(),dis();
 main()
