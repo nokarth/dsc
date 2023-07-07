@@ -12,17 +12,16 @@ if(str[m] == pat[i])
 i++;
 m++;
 if(pat[i] == '\0')
-{
-}
-}
-else
-{
-flag = 1;
+{ 
 flag = 1;
 for(k = 0; rep[k] != '\0'; k++, j++)
 ans[j] = rep[k];
 i = 0;
 c = m;
+}
+}
+else
+{
 ans[j] = str[c];
 j++;
 c++;
